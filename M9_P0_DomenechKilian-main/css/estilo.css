@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body { 
+    color: #7f888f; 
+    font-family: "Open Sans", sans-serif; 
+    font-size: 13pt; 
+    font-weight: 400; 
+    line-height: 1.5; 
+}
+#barra {
+    width: 20%;
+    background-color: #f5f6f7;
+}
+#buscador {
+    background-color: #eff1f2; 
+    padding: 20px; 
+}
+#menu {
+    font-size: 14px;
+    color: #3d4449; 
+    line-height: 1cm;
+    padding-bottom: 4em;
+}
+h1,h2,h3 {
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+#header {
+    font-size: 18px;
+    display: flex;
+    border-bottom: solid 5px #f56a6a;
+    padding: 2em 0.75em 0.5em 0em; 
+    margin: 0 0 2em 0;  
+    justify-content: space-between;
+    color: #7f888f;
+}
+#web {
+    display: flex; 
+    width: 100%; 
+}
+#menu li>ul { 
+    display: none;
+}
+
+#menu li>a {
+    color: #3d4449;
+}
+
+#menu li:hover>ul {
+    display: block;
+}
+
+#menu a:hover, #menu span:hover{ 
+    color: #C93C20; 
+}
+
+#menu ul>li:not(.linodesple) {
+    border-bottom: solid 1px darkgrey;
+}
+
+#barra h2 {
+    font-size: 0.75em;
+}
+
+#menu>ul {
+    margin-top: 15px; 
+}
+
+#menu li { 
+    padding: 2%;
+}
+.titulos {
+    border-bottom: solid 3px #f56a6a;
+    font-size: 1.75em; 
+    margin: 0 0 1em 0;
+    padding: 0 0.75em 0.5em 0;
+    display: inline-block; 
+}
+#barra h2 {
+    font-size: 0.75em;
+}
+nav {
+    margin-bottom:3.5em;
+    padding: 20px;
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    font-size: 15px;
+    font-weight: 100;
+}
+#iconos i {
+    margin: 0 1em 0 0;
+}
+#textimag {
+    display: flex; 
+    justify-content: space-between;
+    padding: 5em 0 3em 0; 
+}
+#relleno {
+    height: 100%;
+    width: 80%;
+    padding: 0 5em 0.1em 5em;
+}
+
+#textoizquierda {
+    max-width: 50%;
+}
+#imagen img {
+    height: 100%;
+    object-fit: cover;
+}
+#encabezado h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#encabezado p {
+    font-size: 1em;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+.button {
+    border-radius: 0.375em;
+    box-shadow: inset 0 0 0 2px #f56a6a;
+    color: #f56a6a !important;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-transform: uppercase;
+}
